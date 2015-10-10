@@ -1,16 +1,111 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#004FC8">
+        <title>AS-Chat</title>
+        <link rel="stylesheet" href="css/framework7.material.css">
+        <link rel="stylesheet" href="css/framework7.material.colors.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/kitchen-sink.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/inlife-styles.css">
+        <link rel="icon" href="img/logo.png">
+
     </head>
     <body>
-        <div>TODO write content</div>
+
+        <div class="statusbar-overlay"></div>
+        <div class="panel-overlay"></div>
+        <div class="panel panel-left panel-cover">
+            <div class="view navbar-fixed">
+                <div class="pages">
+                    <div data-page="panel-left" class="page">
+                        <div class="navbar">
+                            <div class="navbar-inner logo_lateral_panel">
+
+                            </div>
+                        </div>
+                        <div class="page-content lateral-left-panel">
+
+                            <div class="list-block" style="margin: 0px!important;">
+                                <ul>
+                                    <li>
+                                        <a href="profile.html" class="item-link close-panel">
+                                            <div class="item-inner">
+                                                <div class="item-title item-lateral-panel">Perfil</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-right panel-reveal">
+            <div class="view view-right">
+                <div class="pages navbar-fixed">
+                    <div data-page="panel-right1" class="page">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="center">Right Panel</div>
+                            </div>
+                        </div>
+                        <div class="page-content"> 
+                            <div class="content-block">
+                                <p>This is a right side panel. You can close it by clicking outsite or on this link: <a href="#" class="close-panel">close me</a>. You can put here anything, even another isolated view, try it:</p>
+                            </div>
+                            <div class="list-block">
+                                <ul>
+                                    <li>
+                                        <a href="panel-right2.html" class="item-link"> 
+                                            <div class="item-content">
+                                                <div class="item-inner"> 
+                                                    <div class="item-title">Right panel page 2</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="panel-right3.html" class="item-link">
+                                            <div class="item-content">
+                                                <div class="item-inner"> 
+                                                    <div class="item-title">Right panel page 3</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages navbar-fixed">
+                    <div data-page="splash" class="page">
+                        <div class="page-content lp-splash-screen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<script type="text/javascript" src="cordova.js"></script>-->
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
+        <script type="text/javascript" src="js/framework7.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/chat-user.js"></script>
+        <script type="text/javascript" src="js/chat-script.js"></script>
     </body>
 </html>
