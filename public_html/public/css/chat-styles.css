@@ -1,0 +1,83 @@
+/****************************************/
+/*********** GLOBALES      **************/
+/****************************************/
+/****************************************/
+
+
+/*********** SPLASH      **************/
+/****************************************/
+
+
+.lp-splash-screen{
+    background-image: url(../img/splash.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+
+
+.padding{
+    padding: 3%!important;
+}
+
+
+/****************************************/
+/*********** LOGIN      **************/
+/****************************************/
+.back-login{
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.fb-button {
+
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(../img/fb_icon.png);
+    background-color: #4A6EA9;
+ 
+    background-size: 44px;
+    text-align: left;
+    padding-left: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+}
+.tw-button {
+
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(../img/tw_icon.png);
+    background-color: #32DEF4;
+ 
+    background-size: 44px;
+    text-align: left;
+    padding-left: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.login_logo{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.social_login_buttons{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+}
+.welcome-login-text{
+    text-align: center;
+}
+
